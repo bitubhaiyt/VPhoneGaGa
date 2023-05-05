@@ -25,7 +25,7 @@ header ol a,header a{
 }
 .logo{
     font-size:28px;
-    padding: 10px 20px;
+    padding: -6px -22px;
     border-radius: 10px  0px 10px 0px;
      margin: 0 5px;
     transition:  .3s all ease-in;
