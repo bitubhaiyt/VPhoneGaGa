@@ -1,0 +1,117 @@
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 6px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 8px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+background-image: linear-gradient(to bottom,#1b90bb,#dddddd);  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.Logoimg{
+  text-align: center;
+
+}
+
+.button{
+text-align: center;
+
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/* social media css */
+
+.social-icons-container {
+  display: flex;
+  gap: 30px;
+  font-family: "Roboto", sans-serif;
+  margin: 32px 0;
+  justify-content: center;
+}
+
+.social-icons-container a {
+  display: flex;
+  gap: 8px;
+  font-size: 42px;
+  text-decoration: none;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  line-height: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+
+.social-icons-container a:hover {
+  width: 138px;
+}
+
+.social-icons-container a .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-icons-container a:nth-of-type(1) {
+  color: #4267b2;
+}
+
+.social-icons-container a:nth-of-type(2) {
+  color: #1da1f2;
+}
+
+.social-icons-container a:nth-of-type(3) {
+  color: #e1306c;
+}
+
+.social-icons-container a:nth-of-type(4) {
+  color: #ff0000;
+}
