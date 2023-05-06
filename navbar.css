@@ -27,7 +27,7 @@ header ol a,header a{
     font-size:28px;
     padding: -6px -22px;
     border-radius: 10px  0px 10px 0px;
-     margin: 4 5px;
+     margin: 4px 5px;
     transition:  .3s all ease-in;
 }
 header ol a li{
