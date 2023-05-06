@@ -1,5 +1,2 @@
-#vphonegaga
-
-
-VPhoneGaGa Virtual Machine Android Application
-"This is unoffcial repositories"
+**VPhoneGaGa Virtual Machine Android Application**
+Click Here to visit direct download Link
